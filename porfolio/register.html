@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">About</a>
+            <a href="contact me.html">Contact</a>
+            <a href="register.html" class="btn">Register</a>
+            <a href="login.html" class="btn">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="text">
+                <h1>Register</h1>
+            </div>
+            <div class="register">
+                <div class="register-image">
+                    <img src="./register.png" alt="">
+                </div>
+                <div class="register-form">
+                    <form action="" method="post">
+                        <div class="register-grid">
+                            <div class="form-group">
+                                <label for="name">Frist Name</label> <br>
+                                <input type="text" name="first name" id="fname" placeholder="Enter your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Last Name</label> <br>
+                                <input type="text" name="last name" id="lname" placeholder="Enter your last name" required>
+                            </div>
+                        </div>
+                        <div class="register-grid">
+                            <div class="form-group">
+                                <label for="name">Phone Number</label> <br>
+                                <input type="number" name="number"  placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Gender</label> <br>
+                                <select name="gender" id="">
+                                    <option value="Male">Male</option>
+                                    <option value="Male">Female</option>
+                                    <option value="Male">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="register-grid">
+                            <div class="form-group">
+                                <label for="name">Country</label> <br>
+                                <input type="text" name="country" placeholder="Enter your country" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">State/Province</label> <br>
+                                <input type="text" name="state/province" placeholder="Enter your state/province" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label> <br>
+                            <input type="email" name="email" placeholder="Enter your email" required style="width: 100%;">
+                        </div>
+                        <div class="register-grid">
+                            <div class="form-group">
+                                <label for="name">Password</label> <br>
+                                <input type="password" name="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Confirm Password</label> <br>
+                                <input type="password" name="confirm password" placeholder="confirm password" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="footer">
+            <p>Portfolio</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
